@@ -13,11 +13,19 @@ app.post("/test", (req, res) => {
   let string_to_cut = req.body.string_to_cut;
   let cutString = everyThird(string_to_cut);
   let result = {"return_string": cutString};
+  // res.status(201).json({
+  //   Status: "Success! Here is your new string, made from every third letter:",
+  //   Result: result,
+  // });
   res.json(result);
-  res.status(201);
-  // res.end();
 })
 
+app.all("*", (req, res, next) => {
+  res.status(404).json({
+    Status: "Error! Page not found",
+    Result: `${req.originalUrl} does not exist. Please enter a valid endpoint.`
+  });
+});
 
 
 // Start server
