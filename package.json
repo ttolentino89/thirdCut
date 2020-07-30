@@ -1,0 +1,16 @@
+{
+  "name": "thirdCut",
+  "version": "1.0.0",
+  "description": "A simple webapp that returns a new string from every third letter using Node + Express",
+  "main": "test.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "node test"
+  }
+}
