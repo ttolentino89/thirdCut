@@ -58,7 +58,7 @@ While pseudo-coding out intial ideas, I came up with a lot of ideas which either
 
 - using a for-loop to iterate over every third character (this was later abandoned for .forEach() instead, which was much cleaner and efficient
 - parsing the input by letter using split(), instantiating an empty array, pushing each letter into the array and then using .slice() at any indices divisible by 3 (i % 3) to get every third letter, and THEN converting this back to a string by using .toString() ....yeah.....
-- other variations of the above two ideas which you can probably still see in my practice repl [here](https://repl.it/repls/PrestigiousImmaculateAccess#index.js)
+- other variations of the above two ideas which you can probably still see in my practice repl [here.](https://repl.it/repls/PrestigiousImmaculateAccess#index.js)
 
 Eventually, I came up with a final working solution which turned into everyThird in third.js, and while there's probably room for improvement (there's *always* room for refactoring), I'm pretty happy with how everything worked out in the end.
 
@@ -75,7 +75,7 @@ let string_to_cut = req.body.string_to_cut;
 ```
 
 And like magic, it worked flawlessly. :tophat::sparkles:
-Shoutout to the original poster on Stack Overflow who first asked [this question.]https://stackoverflow.com/questions/14008346/express-js-req-body
+Shoutout to the original poster on Stack Overflow who first asked [this question.](https://stackoverflow.com/questions/14008346/express-js-req-body)
 
 ## References :books:
 
