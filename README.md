@@ -38,7 +38,7 @@ Three main parts of this program needed to be implemented in order to satisfy re
 
 ## How It Works: :factory:
 
-To keep interests separate, I created two separate files. "test.js" contains all the backend Express server logic + routes, and "third.js" contains the function that actually "splits" the string into third letters and returns a new string created from those "split" characters. In fact, third.js only contains one function which is exported as a module into test.js, and that function is below:
+To keep interests separate, I created two separate JS files. "test.js" contains all the backend Express server logic + routes, and "third.js" contains the function that actually "splits" the string into third letters and returns a new string created from those "split" characters. In fact, third.js only contains one function which is exported as a module into test.js, and that function is below:
 
 ```
 const everyThird = (input) => {
