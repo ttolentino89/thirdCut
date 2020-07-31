@@ -97,4 +97,4 @@ References consulted for this project include (but are not limited to) the follo
 
 Thanks for stopping by, and hope you enjoyed reading this as much I did writing this :grin:
 
-:raised_hands: :three:rd:scissors: ::raised_hands:
+:raised_hands: :three:rd:scissors: :raised_hands:
