@@ -30,6 +30,12 @@ This program follows the original project prompt which called for the following:
 Note: To see expected behavior you can test against a current working example with the command: curl -X POST https://lyft-interview-test.glitch.me/test --data '{"string_to_cut": "iamyourlyftdriver"}' -H 'Content-Type: application/json'
 ```
 
+Three main parts of this program needed to be implemented in order to satisfy requirements:
+
+1. Get user input as "string_to_cut"
+2. Post user input to /test route, which will then
+3. Return "string_to_cut" as a new "return_string" which is composed of every third letter of the original user input
+
 ## How It Works: :factory:
 
 To keep interests separate, I created two separate files. "test.js" contains all the backend Express server logic + routes, and "third.js" contains the function that actually "splits" the string into third letters and returns a new string created from those "split" characters. In fact, third.js only contains one function which is exported as a module into test.js, and that function is below:
@@ -62,7 +68,7 @@ While pseudo-coding out intial ideas, I came up with a lot of ideas which either
 
 Eventually, I came up with a final working solution which turned into everyThird in third.js, and while there's probably room for improvement (there's *always* room for refactoring), I'm pretty happy with how everything worked out in the end.
 
-I also struggled a bit with my app.post in. test.js, as I originally had my user input request set to the following:
+I also struggled a bit with my app.post in test.js, as I originally had my user input request set to the following:
 
 ```
 let string_to_cut = req.body
