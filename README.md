@@ -26,10 +26,19 @@ This program follows the original project prompt which called for the following:
 
 Note: To see expected behavior you can test against a current working example with the command: curl -X POST https://lyft-interview-test.glitch.me/test --data '{"string_to_cut": "iamyourlyftdriver"}' -H 'Content-Type: application/json'
 
-
 ## How It Works: :factory:
 
-## Process + Observations 
+## Process + Observations :mag:
 
-## References 
+## References :books:
 
+References consulted for this project include (but are not limited to) the following links below:
+
+https://stackoverflow.com/questions/5963182/how-to-remove-spaces-from-a-string-using-javascript#5963202
+https://codekila.com/remove-duplicates-from-javascript-array/
+https://www.codespeedy.com/remove-duplicate-values-from-a-javascript-array/
+https://www.w3schools.com/Js/js_json_parse.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+https://expressjs.com/en/api.html#express.json
+
+:three:rd:scissors:
