@@ -95,6 +95,6 @@ References consulted for this project include (but are not limited to) the follo
 - https://expressjs.com/en/api.html#express.json
 - https://stackoverflow.com/questions/14008346/express-js-req-body
 
-Thanks for stopping by, and hope you enjoyed reading as much I did writing this :)
+Thanks for stopping by, and hope you enjoyed reading this as much I did writing this :grin:
 
-:raised_hands: :three:rd:scissors: :pray:
+:raised_hands: :three:rd:scissors: ::raised_hands:
