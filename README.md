@@ -58,6 +58,10 @@ const everyThird = (input) => {
 }
 ```
 
+Note that lines 3-6 in the above function is technically an error handler, as this function can't properly run if the input doesn't even have 3 letters to split at thirds! If the user input's string length is less (<) than or equal to three, the user receives "Error! Input must be longer than 3 characters." as a response. Here's an example below:
+
+![lessthan3](https://user-images.githubusercontent.com/27389714/89134148-94170e80-d4f0-11ea-864b-08628f1396b0.gif)
+
 ## Process & Observations :mag:
 
 While pseudo-coding out intial ideas, I came up with a lot of ideas which either didn't work or were never implemented, such as
