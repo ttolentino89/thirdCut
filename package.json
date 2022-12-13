@@ -4,7 +4,7 @@
   "description": "A simple webapp that returns a new string from every third letter using Node + Express",
   "main": "test.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
